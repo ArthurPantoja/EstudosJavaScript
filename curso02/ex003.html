@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terce Page</title>
+    <style>
+        h1{
+            color: brown;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pagina Home!</h1>
+
+    <h2>Pagina para teste do meu curso de  JavaScript</h2>
+
+    <script>
+        /*Para que se possa fazer a conversão de dados são ultilizados as seguintes comandos
+            **Number
+            Que e usado para que o proprio javaScript possa diferenciar quando e float ou inteiro
+            **parseInt
+            Ele e untilizado quando se força a converção somente para numeros inteiros 
+            **parseFloat
+            Seque a mesma linha de raciocinio, porém se usa para quando se quer converter para numeros reais ou seja numeros fracionados
+
+         Pode se ultilizar também a conversão de numeros para Strings usando duas formas
+            String()
+            Pode se ultilizar esse tipo de conversor que o number colocando o que se quer converter dentro do ();
+            
+            n.toString()
+            Pode se uzar esse tipo de converção usando colocando o que se quer converer antes do toString
+
+        */
+        var num1 = Number(window.prompt("Digite um numemro?"))
+
+        var num2 = Number(window.prompt("Digite outro numero?"))
+
+        var soma = num1 + num2
+
+        window.alert(`A soma entre os numeros ${num1} + ${num2} e = ` + soma)
+        /*Acima foi usado um outro tipo de manipulação de dados usado o templadeString para viabilizar as concatenações no ecmaScript
+            Usando a crase e os sinais de ${} para que possa ser feita a concateção de melhor forma 
+        */
+    </script>
+</body>
+</html>
