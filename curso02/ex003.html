@@ -36,6 +36,18 @@
             Algumas outras maneiras de formatação de Strings
                 variavel.length => para saber quantos caracteres
                 variavel.toUpperCase => para colocar as letras todas as letras em maiuscula
+
+            Como almentar as casas decimais dos Numbers em javaScript
+                variavel.toFixed(n)
+
+            Também pode trocar os pontos por virgulas
+                varialvel.toFixed(n).replace(".",",")
+                No codigo acima no primeira aspas duplas coloca o que se quer trocar já na segundo se coloca pelo que se qer trocar para que possa fazer a alteração
+
+            Codigo para localizar moedas no JavaScript
+                variavel.toLocaleString("pt-BR", {style: 'currency', currency: 'BRL'})
+                O comando digitado acima serva para localizar a String em português assim fazendo com que se possa ultilizar a moeda ou outra coisa que e de uma lingua e especifico
+                Apos isso dentro dos parenteses e colocado os objetos para serem usadps nesse codigo esta sendousado a expresão de valores monetários
         */
         var num1 = Number(window.prompt("Digite um numemro?"))
 

@@ -8,11 +8,29 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Moviemntos para deixar seus estudos cada vez melhor</h1>
-
-        <nav>
+    <nav>
+        <ul>
+            <h1>Moviemntos para deixar seus estudos cada vez melhor</h1>
             <ul><a href="ex002.html">Segunda pagina</a></ul>
             <li><a href="ex003.html">Terceira pagina</a></li>
-        </nav>    
+        </ul>
+    </nav> 
+    <nav id="jh">
+        <script>
+            var name = window.prompt("Qual seu nome?")
+            document.write(`Olá <strong>${name}</strong>! <br> Seu nome tem ${name.length} letras <br/>`)
+            document.write(`Seu nome em maiusculo e ${name.toUpperCase()}<br/>`)
+            document.write(`Seu nome em minuscula e ${name.toLowerCase()}`)
+        </script>
+    </nav>
+    <nav id="lk">
+        <script>
+            var salario = window.prompt("Qual e a sua renda mensal?")
+
+            document.write(`Seu salario ${salario}`)
+            // document.write(`Seu salario e ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+        </script>
+    </nav>
+   
 </body>
 </html>
