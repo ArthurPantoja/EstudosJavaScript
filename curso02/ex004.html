@@ -14,22 +14,48 @@
             <ul><a href="ex002.html">Segunda pagina</a></ul>
             <li><a href="ex003.html">Terceira pagina</a></li>
         </ul>
-    </nav> 
-    <nav id="jh">
+    </nav>
+
+    <nav id="lk">
         <script>
             var name = window.prompt("Qual seu nome?")
             document.write(`Olá <strong>${name}</strong>! <br> Seu nome tem ${name.length} letras <br/>`)
             document.write(`Seu nome em maiusculo e ${name.toUpperCase()}<br/>`)
             document.write(`Seu nome em minuscula e ${name.toLowerCase()}`)
         </script>
+        <nav id="lk">
+            <script>
+                var salario = window.prompt("Qual e a sua renda mensal?")
+                document.write(`Seu salario e R$${salario},00`)
+    
+            </script>
+        </nav>
     </nav>
-    <nav id="lk">
-        <script>
-            var salario = window.prompt("Qual e a sua renda mensal?")
 
-            document.write(`Seu salario ${salario}`)
-            // document.write(`Seu salario e ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
-        </script>
+    <nav id="lk">
+        <h2>Operadores aritméticos <br></h2>
+        <p>As representações de operadores aritmeticos vãoser representados abaixo</p>
+        <p>Os operadores aritmeticos servem para que se possa fazer as operações basicas de matematica, Assim as representações abaixo seram entre 5 e 2</p>
+        <p>
+            <strong>5 + 2 = 7 =></strong> Essa operação de representa a <strong>Adição</strong> na matematica <br>
+            <strong>5 - 2 = 3 =></strong> Essa operação de representa a <strong>Subtração</strong> na matematica <br>
+            <strong>5 * 2 = 10 =></strong> Essa operação de representa a <strong>Multiplicação</strong> na matematica <br>
+            <strong>5 / 2 = 2,5 =></strong> Essa operação de representa a <strong>Divisão real</strong> na matematica <br>
+            <strong>5 % 2 = 1 =></strong> Essa operação de representa o <strong>Resto da Divisão</strong> na matematica <br>
+            <strong>5 ** 2 = 25 =></strong> Essa operações feitas por <strong>Potenciação</strong> na matematica <br>
+        </p>
+        <h2>Cuidado!</h2>
+        <h3>Tome cuidado com a precedencia de das operações!</h3>
+        <p>Ou seja <br> 
+        O cuidado a se tomar e na hora da formação da sua conta, ou seja, tome cuidado com as contas como por exemplo <strong>5 + 3 / 2</strong>. Pois ao se penssar que o resultado será 4 estará enganado, o JavaScript irá priorisar o <strong>3 / 2</strong> dando o resultado de 1,5 e só depois irá fazer a adição, assim fazendo com que a conta feita der o resultado de 6,5
+        </p>
+        <h3>Ordem de Precedencia dos operadores aritmeticos</h3>
+        <p>A ordem de prececia segue essa lista: <br>
+        <ul>() => o que tiver entre as chaves irã ter o prioridade na ordem</ul>
+        <ul>** => Logo depois na ordem de priordade vem a Potenciação</ul>
+        <ul>/ * % => E depois vem os outros tres operadores todos, assim vem na ordem da esquerda para a direita</ul>
+        <ul>+ - => E por fim os de adição e subtração </ul>
+        </p>
     </nav>
    
 </body>
