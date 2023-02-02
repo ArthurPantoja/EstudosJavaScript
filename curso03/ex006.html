@@ -17,13 +17,22 @@
     </style>
 </head>
 <body>
-    <div id="meta" onclick=clicar()>
+    <div id="meta" onclick=clicar() onmouseenter=entrou() onmouseout=sair()>
         Click Aqui
     </div>
     <script>
+         var meta = window.document.getElementById('meta')
         function clicar(){
-           var meta = window.document.getElementById('meta')
            meta.innerText = 'Clicou!...'
+           meta.style.background = 'green'
+        }
+        function entrou(){
+            meta.innerText = 'Entrou'
+            meta.style.background = 'black'
+        }
+        function sair(){
+            meta.innerText = 'Saiu'
+            meta.style.background = 'red'
         }
     </script>
 </body>

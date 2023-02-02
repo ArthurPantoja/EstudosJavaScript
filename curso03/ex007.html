@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E o DETRAN </title>
+</head>
+<body>
+    <h1>Sistema para multas!!!</h1>
+    A velocidade do carrro <input type="number" name="txtl1" id="txtl1">Km/h
+      <input type="button" value="Verificar" onclick="ver()">
+    <div id="fes">Vai aparecer alguma coisa aqui</div>
+
+    <script>
+        function ver() {
+            var cal = window.document.getElementById('txtl1')
+            var der = window.document.getElementById('fes')
+            var l1 = Number(cal.value)
+
+            if(l1 > 70) {
+                der.innerHTML = (`Você ultrapassou o limite de velocidade <strong>Multado</strong>`)
+            }else{
+                der.innerHTML = (`Sua velocidade atual e de ${l1}Km/h`)
+            }
+
+            
+        }
+    </script>
+
+</body>
+</html>
