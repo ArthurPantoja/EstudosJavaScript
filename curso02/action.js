@@ -2,7 +2,7 @@ function alerta() {
     alert("Esta pagina foi desenvolvida por Arthur Cristia com intuito de ajudar nos seus proprios conhecimentosde JavaScript")
 }
 
-var vel = 200
+var vel = 70
 
 console.log(`A velocidade de seu carro e de ${vel}`)
 

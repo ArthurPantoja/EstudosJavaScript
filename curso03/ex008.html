@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Nacionalidae</title>
+</head>
+<body>
+    <h1>Vamos agora verificar se es barsileiro!</h1>
+    <input type="text" name="txtn1" id="txtn1">
+    <input type="button" value="Verificar" onclick="veri()">
+    <div id="ve">Mostrara aqui o Resultado</div>
+
+    <script>
+        function veri() {
+            var nacio = window.document.getElementById("txtn1")
+            var lida = window.document.getElementById("ve")
+
+            if(nacio = 'Brasileiro'){
+                lida.innerHTML = (`Você e ${nacio}`)
+            }
+            
+            lida.innerHTML = ("Infelizmente vc não pertence ao pais krlh... KKKKKKKKKKKKK")
+            
+        }
+    </script>
+</body>
+</html>
