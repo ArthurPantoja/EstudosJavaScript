@@ -1,6 +1,6 @@
 let num = [5, 3, 4, 55]
 
-console.log(`O vetror e composto pelos valores ${num.sort()}`)
+console.log(`O vetor e composto pelos valores ${num.sort()}`)
 
 let l
 
